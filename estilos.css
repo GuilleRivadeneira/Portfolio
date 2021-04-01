@@ -6,3 +6,55 @@
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
 }
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+
+/* navbar styling*/
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    background: #0C162B;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+
+/*Home Section styling*/
+
+
+/*.home {
+    display: flex;
+    background: url(img/perfil.jpg) no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+}*/
